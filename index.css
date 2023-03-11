@@ -1,5 +1,8 @@
 body{
     margin: 0%;
+    
+        
+    
     background-color: rgb(255, 221, 208);
 }
 img{
@@ -37,17 +40,21 @@ nav ul li {
 .flex{
     display:flex;
 }
+
 .items-center{
  align-items: center;
+
 }
 .justify-center{
     justify-content: center;
 }
-p{
+
+.para{
     color: rgb(69, 10, 10);
-    font-size: x-large;
-   font-weight: 900;
-    padding-left: 500px;
+    font-size: xx-large;
+    font-weight: 900;
+    padding: 30px;
+    text-align: center;
     
 }
 .i1
@@ -57,7 +64,7 @@ p{
 
     padding-top: 0%;
     padding-bottom: 0%;
-    position:relative;
+    
     height: 220px;
     width: 210.5px;
     
@@ -95,3 +102,124 @@ a{
     
     
 }
+a{
+    text-decoration: none;
+}
+a:hover{
+    color:rgb(250, 209, 209);
+}
+
+.btn {
+    background: #ff5a60;
+    background-image: -webkit-linear-gradient(top, #ff5a60, #fc4b54);
+    background-image: -moz-linear-gradient(top, #ff5a60, #fc4b54);
+    background-image: -ms-linear-gradient(top, #ff5a60, #fc4b54);
+    background-image: -o-linear-gradient(top, #ff5a60, #fc4b54);
+    background-image: linear-gradient(to bottom, #ff5a60, #fc4b54);
+    -webkit-border-radius: 3;
+    -moz-border-radius: 3;
+    border-radius: 3px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    border: solid #ffffff 2px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #ffffff;
+    background-image: -webkit-linear-gradient(top, #ffffff, #ffffff);
+    background-image: -moz-linear-gradient(top, #ffffff, #ffffff);
+    background-image: -ms-linear-gradient(top, #ffffff, #ffffff);
+    background-image: -o-linear-gradient(top, #ffffff, #ffffff);
+    background-image: linear-gradient(to bottom, #ffffff, #ffffff);
+    text-decoration: none;
+  }
+  .div3
+  { 
+    height: 60px;
+    padding-top: 0.5px;
+    padding-bottom: 2px;
+    font-size: x-larger;
+    background-color: #ff5a60;
+    
+  }
+  h3{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(69, 10, 10);
+  }
+  .stories
+  {
+    
+    color:rgb(69, 10, 10);
+    
+    padding:10px;
+    text-align: center;
+    font-size: 25px;
+  }
+  .storyimage
+  {
+    height: 200px;
+    margin: 0%;
+    width:200px;
+    align-items: center;
+    padding: 10px;
+    
+    
+    
+  }
+  .shaadi
+  {
+    padding-top: 130px;
+    height: 80px;
+    width: 80px;
+    
+  }
+  footer{
+    display:inline;
+  }
+  .bottom-container
+  {
+    
+    background-color:rgb(69, 10, 10);
+    width: 100%;
+    padding: 30px 0px 20px;
+    margin-top: 50px;
+    color: #ffffff ;
+   
+    text-align: center; 
+
+
+  }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  .div4
+  {
+    margin: 50px;
+    display: flex;
+  }
+  
+.gap
+{  padding: 35px;
+    border-bottom: #4f4b4b;
+}
+.desc
+  {
+    
+    color:rgb(69, 10, 10);
+    margin:0px 50px 0px;
+    padding:0px 50px 0px 50px;
+
+
+    text-align: center;
+    font-size: 16px;
+  }
+
+  
